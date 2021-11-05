@@ -8,5 +8,7 @@ class MyList
     def each(&block)
         @list.each do |li|
             block.call(li)
+        end
     end
+
 end
