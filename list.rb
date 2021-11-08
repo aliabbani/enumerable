@@ -1,5 +1,5 @@
 class MyList
-  include Enumerable
+  include MyEnumerable
 
   def initialize(*list)
     @list = list
